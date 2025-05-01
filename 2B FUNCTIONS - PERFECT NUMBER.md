@@ -1,5 +1,4 @@
-![output](https://github.com/user-attachments/assets/c39ad1bc-bd77-49fe-b64e-1b393181b2aa)# Exp.No:2b  
-## FUNCTIONS - write a python program to define a function that accepts side of a square and returns the area of a square.
+# Exp.No:2b  ## FUNCTIONS - write a python program to define a function that accepts side of a square and returns the area of a square.
 
 
 ### AIM  
