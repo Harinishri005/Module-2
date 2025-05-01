@@ -1,32 +1,44 @@
-# Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+![output](https://github.com/user-attachments/assets/c39ad1bc-bd77-49fe-b64e-1b393181b2aa)# Exp.No:2b  
+## FUNCTIONS - write a python program to define a function that accepts side of a square and returns the area of a square.
+
 
 ### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
-
----
+To write a python program to define a function that accepts side of a square and returns the area of a square.
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+1.Start
+2.Define a function area_of_square(side):
+3.Return side * side
+4.Accept input for the side of the square.
+5.Call the function with the input and store the result.
+6.Display the result.
 
----
 
 ### PROGRAM
+#Reg.No:212223090008
+
+#Name:Harinishri S
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
+radius=int(input())
+def area(radius):
+    a=radius*radius
+    return(a)
+area(radius)
 
 ```
 ### OUTPUT
 
+![output](https://github.com/user-attachments/assets/bbf8eb31-4e95-4a45-8d37-68d1ca18690a)
+
+
 ### RESULT
+The program defines a function that calculates and returns the area of a square using the formula radius × radius.
+
+
+
+
+
+
+
+
