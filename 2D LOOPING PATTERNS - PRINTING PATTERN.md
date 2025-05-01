@@ -4,33 +4,44 @@
 ---
 
 ### AIM  
-To write a Python program to print a triangular star pattern using loops.
+To print right angled triangle pattern of numbers .Get the number of rows as input .
 
----
 
 ### ALGORITHM
+1.Start
+2.Input the number of rows n from the user.
+3.For each row number i from 1 to n:
+4.Start an inner loop from j = 1 to i:
+5.Print number j (on the same line).
+6.After the inner loop ends, move to the next line.
+7.End
 
-1. Begin the program.  
-2. Read the integer `n` from the user using `input()`. This will determine the number of rows in the pattern.  
-3. Initialize a variable `i = 0`. This will help adjust the spacing before the stars.  
-4. Loop through rows from `0` to `n - 1`:  
-   - For each row, calculate the number of spaces to print using the formula: `((n - rows - 1) * 2) + i`.  
-   - Print the calculated number of spaces using `print(" ", end="")`.  
-   - Increment `i` by 1 after each row.  
-   - Print stars using a nested loop: the number of stars in each row is `rows + 1`, printed using `print("*", end="  ")`.  
-   - Print a newline after each row using `print("")` to move to the next line.  
-5. Terminate the program.
-
----
 
 ### PROGRAM
+#Reg.No:212223090008
+#Name:Harinishri S
 ```
-#Reg.No:
-#Name:
-#Add Your Code Here
-
+rows=int(input())
+for i in range(1, rows):
+    num=1
+    for j in range(rows, 0,-1):
+        if j>i:
+            print(" ",end=' ')
+        else:
+            print(num, end=' ')
+            num +=1
+    print("")
 ```
 
 ### OUTPUT
 
+![outputpatt](https://github.com/user-attachments/assets/9554ab5b-bca2-4991-a361-5561ca874fab)
+
 ### RESULT
+The program prints a right-angled triangle where each row i contains sequential numbers from 1 to i, forming an incremental numeric pattern.
+
+
+
+
+
+
