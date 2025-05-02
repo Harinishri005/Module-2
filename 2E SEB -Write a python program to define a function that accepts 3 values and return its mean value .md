@@ -9,13 +9,20 @@ To write a python program to define a function that accepts 3 values and return 
 ### ALGORITHM
 
 1.Start
+
 2.Define a function named result that takes three parameters: a, b, and c.
+
 3.Inside the function, calculate the mean using the formula:
 mean = (a + b + c) / 3
+
 4.Return or print the result in the format: "mean is <value>"
+
 5.In the main program, input or define three numbers.
+
 6.Call the result() function with those numbers.
+
 7.Display the output.
+
 8.End
 
 
