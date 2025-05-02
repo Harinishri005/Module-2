@@ -7,10 +7,15 @@ To write a python program to define a function that accepts side of a square and
 ### ALGORITHM
 
 1.Start
-2.Define a function area_of_square(side):
+
+2.Define a function area_of_square(side)
+
 3.Return side * side
+
 4.Accept input for the side of the square.
+
 5.Call the function with the input and store the result.
+
 6.Display the result.
 
 
