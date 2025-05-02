@@ -7,9 +7,13 @@ To write a lambda function which takes z as a parameter and returns z*45 using p
 ### ALGORITHM
 
 1.Start
+
 2.Define a lambda function that accepts one parameter z
+
 3.Return the result of z * 45
+
 4.Call the lambda function with a sample value to test it
+
 5.End
 
 
