@@ -7,10 +7,15 @@ To write a program that prints all odd numbers from 1 to n in reverse order (fro
 ###  Algorithm
 
 1.Start
+
 2.Input an integer n (the upper limit).
+
 3.If n is even, subtract 1 from n to get the largest odd number less than or equal to n.
+
 4.Loop from n down to 1, decrementing by 2:
+
 5.Print the current number.
+
 6.End
 
 ### 🧾 Program
