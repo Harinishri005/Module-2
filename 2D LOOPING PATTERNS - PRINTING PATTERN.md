@@ -9,11 +9,17 @@ To print right angled triangle pattern of numbers .Get the number of rows as inp
 
 ### ALGORITHM
 1.Start
+
 2.Input the number of rows n from the user.
+
 3.For each row number i from 1 to n:
+
 4.Start an inner loop from j = 1 to i:
+
 5.Print number j (on the same line).
+
 6.After the inner loop ends, move to the next line.
+
 7.End
 
 
